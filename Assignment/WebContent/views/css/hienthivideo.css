@@ -1,0 +1,122 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+.page__chitiet{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 70vh;
+
+}
+.page__chitiet-videos{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 63%;
+    height: 100%;
+}
+.page__chitiet-videos-run{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    border: 1px solid #333;
+    
+}
+.videos-run-frame{
+    width: 90%;
+    height: 90%;
+}
+.videos-run-frame iframe{
+    width: 100%;
+    height: 100%; 
+}
+.page__chitiet-videos-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    border: 1px solid #333;
+}
+
+.page__chitiet-videos-description{
+    width: 100%;
+    height: 20%;
+    border: 1px solid #333;
+}
+.page__chitiet-videos-sukien{
+
+    width: 100%;
+    height: 7%;
+    border: 1px solid #333;   
+}
+.videos-sukien-item{
+    display: flex;
+    height: 100%;
+    padding-left: 65%;
+    width: 200px;
+
+}
+.page__chitiet-videos-sukien a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 100%;
+    color: #fff;
+    border-radius: 3px;
+    background-color: rgb(63, 61, 61);
+    margin-right: 10px;
+    width: 90px;
+}
+.page__chitiet-videos-sukien a:hover{
+    background-color: rgb(161, 156, 156);
+    color: rgb(83, 80, 80);
+}
+
+
+
+.page__chitiet-videowatch{
+   
+    width: 36%;
+    height: 100%;
+    overflow:auto;
+}
+.page__chitiet-videowatch-scroll{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow:inherit;
+}
+.page__chitiet-videowatch-infor{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 24%;
+    margin-top: 10px;
+    background-color: antiquewhite;
+}
+.videowatch-infor-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+}
+.videowatch-infor-image img{
+    width: 90%;
+    height: 90%;
+    background-size: 0 auto;
+}
+.videowatch-infor-title{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: #000;
+    width: 53%;
+    height: 100%;
+    border: 1px solid #333;
+}
